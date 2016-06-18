@@ -1,0 +1,43 @@
+# ---- Python ----
+*.pyc
+*.pyd
+*.pklz
+#*.csv
+tmp/*
+tmp
+env.py
+proj_env_local.py
+
+# ---- Mac crap ----
+.DS_Store
+
+# ---- Cython ----
+build/*
+*.so
+Profile.prof
+*.c
+
+# ---- Sphinx ----
+doc/_build/*
+doc/_templates/*
+doc/_static/*
+
+# ---- nose ----
+cover/
+.coverage
+
+# ---- Sphinx devdoc ----
+devdoc/_build/*
+
+# ---- Working directory for test ----
+workdir/*
+testdir/*
+
+# ---- Wheel ----
+build
+dist
+BMLiNGAM.egg-info
+
+script/data2.csv
+script/log_check_sampledata.txt
+
